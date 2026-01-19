@@ -22,8 +22,9 @@ app.get("/", (req, res) => {
 });
 
 // Sobre Documentación
+
 app.get("/docs", (req, res) => {
-  return res.status(200).sendFile(path.join(__dirname, "about-server.html"));
+  return res.status(200).sendFile(path.join(__dirname, "server-about.html"));
 });
 
 //Desplegar Canciones
