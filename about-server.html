@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+</head>
+
+<body>
+  <div id="AgregarCancion">
+    <h2 class="pt-3 text-center ">&#119070; Mi repertorio - Server &#119070;</h2>
+
+    <ul class="list-group p-2 text-dark text-left">
+
+        <li class="list-group-item">GET/http://localhost:3000/canciones -> Muestra las canciones agregadas</li>
+        <li class="list-group-item">POST/http://localhost:3000/canciones -> Permite agregar una canción</li>
+                <li class="list-group-item">PUT/http://localhost:3000/canciones/:id -> Permite actualizar los datos de una canción (se requiere un id)</li>
+        <li class="list-group-item">DELETE/http://localhost:3000/canciones/:id -> Permite borrar una canción (se requiere un id)</li>
+
+    </ul>
+  </div>
+
+  
+
+</body>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap");
+
+  body {
+    text-align: center;
+    background: #212a74;
+    color: white;
+    font-family: "Kelly Slab", sans-serif;
+    letter-spacing: 1px;
+  }
+</style>
+
+</html>
