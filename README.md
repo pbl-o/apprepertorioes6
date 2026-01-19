@@ -3,6 +3,9 @@
 Servidor con Express que utiliza el módulo File
 System para agregar, modificar y eliminar canciones almacenadas en un JSON local (repertorio.json)
 
+- Commonjs
+- 'https://github.com/pbl-o/apprepertorio'
+
 ## Tecnologías Empleadas
 
 - Node.js, express.js
