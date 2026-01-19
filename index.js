@@ -22,10 +22,10 @@ app.get("/", (req, res) => {
 });
 
 // Sobre Documentación
-
 app.get("/docs", (req, res) => {
-  return res.status(200).sendFile(path.join(__dirname, "server-about.html"));
+  return res.status(200).sendFile(path.join(__dirname, "theserver.html"));
 });
+
 
 //Desplegar Canciones
 app.get("/canciones", async (req, res) => {
@@ -142,6 +142,8 @@ app.delete("/canciones/:id", async (req, res) => {
     return res.status(500).json({ message: "Error del servidor" });
   }
 });
+
+
 
 app.listen(port, () => {
   console.log(`Servidor activo en http://localhost:${port}`);
